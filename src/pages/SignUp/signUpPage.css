@@ -1,0 +1,39 @@
+.container{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin-top: 200px;
+}
+
+.form-container{
+    width: 300px;
+    display: flex;
+    flex-direction: column;
+    align-items: center
+}
+
+.submit-button{
+    width: 100%;
+    padding: 10px;
+    border-radius: 15px;
+    background: none;
+    border: solid 1px gray;
+}
+video{
+    width: 100%;
+    height: 100%;
+    opacity: 90%;
+}
+
+.signUp-content {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    top: 0;
+
+}
+
+.signUp-logo {
+    height: 150px;
+}
