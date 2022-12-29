@@ -1,11 +1,11 @@
-import React from 'react';
+import React, {useState} from 'react';
 import {useField} from "formik";
 import './customInput.css';
 
+
 function CustomInput({label,...props}) {
     const [field,meta] = useField(props);
-    console.log("field",field);
-    console.log("meta",meta);
+
 
     return (
         <div className={"input-container"}>

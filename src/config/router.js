@@ -5,6 +5,8 @@ import SignIn from "../pages/SignIn/SignIn";
 import SignUp from "../pages/SignUp/SignUp";
 import AuthLayout from "../layout/AuthLayout";
 import Layout from "../layout/Layout";
+import Movie from "../pages/Movie/Movie";
+import Profile from "../pages/Profile/Profile";
 
 function Router() {
     return (
@@ -13,6 +15,8 @@ function Router() {
 
                 <Route element={<Layout />}>
                     <Route path={"/"} element={<Home/>} />
+                    <Route path={"/profile"} element={<Profile/>} />
+                    <Route path={"/moviePage/:movieid"} element={<Movie/>} />
                 </Route>
 
 

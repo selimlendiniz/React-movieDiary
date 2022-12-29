@@ -1,0 +1,25 @@
+.movie-card{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    overflow: hidden;
+}
+
+.movie-card-img{
+    border-radius: 30px;
+    height: 300px;
+}
+
+.movie-card-title{
+    color: white;
+
+}
+
+.movie-card:hover{
+
+}
+
+.movie-card-btn{
+    background: none;
+    border: none;
+}
